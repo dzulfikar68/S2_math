@@ -1,0 +1,228 @@
+body{
+	margin					: 0px;
+}
+
+#header{
+	background			: #222222;
+}
+
+
+#navbar .navbar{
+	margin					: 0px;
+	border-radius: 0px;
+}
+
+.navbar-default{
+		background			: #222222;
+	border-color: #222222;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color				: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+	color: white;
+}
+
+.navbar-nav > li:hover {
+   background				:#3498db;
+	color			: white;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: white;
+    background-color: #3498db;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: white;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: white;
+    text-decoration: none;
+    background-color:  #3498db;
+}
+.navbar-default .navbar-brand{
+	color			: white;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color			:  #3498db;
+}
+
+#content{
+	background:#333333 ;
+}
+
+#content_left{
+	background			: #333333;
+	min-height			: 500px;
+	padding: 	0px;
+	
+}
+a:hover, a:focus {
+	color			:  #3498db;
+}
+a{
+	color	:white;
+}
+a h3{
+	margin: 5px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	background: #111111;
+}
+#menu_left{
+	padding: 0px;
+}
+#content_right{
+	background			: #EEEEEE;
+	min-height			: 800px;
+}
+#page_title{
+	margin-bottom		: 20px;
+}
+#page_content{
+	margin-top		: 20px;
+}
+#button{
+	margin		: 10px 0px 20px 0px;
+}
+.action a{
+	color		: #3498db;
+}
+#dasboard_add_article{
+	padding				: 15px 50px 10px 0px;
+}
+.news_date{
+	font-style			: italic;
+	width				: 100%;
+	padding				: 5px 0 5px 0;
+	font-size			: 14px;
+}
+.error{
+	color			: red;
+}
+.modal-dialog {
+    width: 835px;
+}
+.modal-body {
+    min-height: 450px;
+}
+.file_upload {
+	position	: relative;
+	overflow	: hidden;
+	
+}
+.file_upload input.upload {
+	position	: absolute;
+	top			: 0;
+	right		: 0;
+	margin		: 0;
+	padding		: 0;
+	font-size	: 20px;
+	cursor		: pointer;
+	opacity		: 0;
+	filter		: alpha(opacity=0);
+}
+#input{
+	padding		: 0px 10px 0px 0px;
+}
+#footer{
+	background			:  #222222;
+	min-height			: 50px;
+	
+}
+
+#image{
+	padding: 0px;
+}
+
+/*Style untuk cropit*/
+
+ .cropit-image-preview {
+        background-color: #f8f8f8;
+        background-size: cover;
+        border: 5px solid #ccc;
+        border-radius: 3px;
+        margin-top: 7px;
+        width: 400px;
+        height: 250px;
+        cursor: move;
+      }
+
+      .cropit-image-background {
+        opacity: .2;
+        cursor: auto;
+      }
+
+      .image-size-label {
+        margin-top: 10px;
+      }
+
+      input {
+        /* Use relative position to prevent from being covered by image background */
+        position: relative;
+        z-index: 10;
+        display: block;
+      }
+
+      .export {
+        margin-top: 10px;
+      }
+
+
+
+/*styling untuk login*/
+
+#wrapper #header{
+	background	: white;
+}
+
+#login_wrapper{
+	width			: 50%;
+	margin			: 0 auto;
+	background		: rgba(149, 165, 166,0.1);
+	border			: 2px solid black;
+}
+#header_login{
+	text-align		: center;
+	width			: 100%;
+}
+#header_login h1{
+	padding			: 20px;
+}
+#content_login{
+	width			: 100%;
+}
+
+#img_login{
+	width			: 40%;
+	float			: left;
+}
+#form_login{
+	width			: 60%;
+	float			: right;
+	margin-top		: 50px;
+}
+#form_login table tr td{
+	padding			: 5px;
+}
+
+#footer_login{
+	width			: 100%;
+	text-align		: center;
+	padding			: 10px;
+}
+
+
+
+#input_gambar{
+	visibility: hidden;
+}
+
+
+a.delete{
+	color			: red;
+}

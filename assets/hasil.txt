@@ -1,0 +1,1 @@
+Undip event adalah aplikasi yang berjalan pada platform web browser. Aplikasi ini berisi event-event yang ada di sekitar lingkungan Universitas Diponegoro. Ada banyak hal yang menarik dari UndipEvent. UndipEvent dibuat dengan kematangan konsep dan desain sehingga menghasilkan mahakarya yang memuaskan.

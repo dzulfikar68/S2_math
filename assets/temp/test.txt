@@ -1,0 +1,44 @@
+public function c_add_slider()
+	{
+		$this->load->helper('file');
+		
+		$data['message'] = $this->session->flashdata('message');
+		$data['error'] = '';
+		//load semua yang diperlukan
+		$this->load->helper('form');
+		$this->load->library('form_validation');
+		
+		//set rules
+		$this->form_validation->set_rules('label_slider', 'Label Slider', 'trim|required|max_length[100]');
+		$this->form_validation->set_rules('prioritas', 'Prioritas', 'trim|required|integer');
+		
+		//cek jika validasi form berhasil
+		if ($this->form_validation->run() === FALSE)
+		{
+			$this->load->template_admin('admin/form_slider',$data);
+		}
+		//jika validasi form berhasil
+		else
+		{	
+			$image = read_file('./assets/temp/temp_image.png');
+			
+			//cek apakah berhasil dibaca
+			if($image){
+				$write_image = write_file('./assets/images/slider', $image);
+				
+				//cek apakah sukses menulis kembali
+				if($write_image){
+					$this->session->set_flashdata('message', 'Slider berhasil ditambahkan...');
+					$this->M_Slider->add_slider();
+					redirect('admin/c_slider/show_slider');
+				}else{
+					$this->session->set_flashdata('message', 'terjadi kesalahan, harap diulang kembali...');
+					$this->load->template_admin('admin/form_slider',$data);
+				}//end cek write_image
+			}else{
+				$this->session->set_flashdata('message', 'terjadi kesalahan, harap diulang kembali...');
+				$this->load->template_admin('admin/form_slider',$data);
+			}//end cek image
+			
+		}//end cek form validastion
+	}

@@ -1,0 +1,162 @@
+body{
+	margin			: 0px;
+}
+th{
+	text-align		: center;
+}
+#wrapper{
+	width			: 90%;
+	margin			: 0px auto;
+	border			: 1px solid black;
+	border-radius	: 10px;
+}
+
+#header{
+	width			: 100%;
+	height			: 200px;
+}
+#title_header{
+	width			: 100%;
+	height			: 150px;
+	text-align		: center;
+	padding-top		: 50px;
+	font-size		: 50px;
+}
+#nav_menu{
+	width			: 100%;
+	height			: 50px;
+}
+
+#content{
+	width			: 100%;
+	min-height		: 500px;
+}
+
+
+#content_left{
+	width			: 60%;
+	height			: 100%;
+	float			: left;
+	font-size		: 10px;
+}
+#cpanel{
+	width			: 90%;
+	height			: 90%;
+	margin			: 30 auto;
+}
+#cpanel table tr td{
+	width			: 128px;
+	height			: 160px;
+	padding			: 10px;
+}
+.icon{
+	border			: 1px solid rgba(0,0,0,0.1);
+	border-radius	: 10px;
+	text-align		: center;
+}
+.icon a{
+	text-decoration	: none;
+	text-align		: center;
+	
+}
+.icon a span{
+	text-align		: center;
+}
+#content_right{
+	width			: 40%;
+	height			: 100%;
+	float			: right;
+}
+#log_panel{
+	width			: 90%;
+	height			: 90%;
+	margin			: 30px auto;
+}
+#log_panel table{
+	width			: 100%;
+	text-align		: center;
+}
+#log_panel table tr td{
+	width			: 50%;
+	padding			:10px;
+}
+
+#footer{
+	width			: 100%;
+	text-align		: right;
+	padding			: 20px;
+	margin-top		: 200px;
+}
+
+
+
+#login_wrapper{
+	width			: 50%;
+	margin			: 0 auto;
+	background		: rgba(149, 165, 166,0.1);
+	border			: 2px solid black;
+}
+#header_login{
+	text-align		: center;
+	width			: 100%;
+}
+#header_login h1{
+	padding			: 20px;
+}
+#content_login{
+	width			: 100%;
+}
+
+#img_login{
+	width			: 40%;
+	float			: left;
+}
+#form_login{
+	width			: 60%;
+	float			: right;
+	margin-top		: 50px;
+}
+#form_login table tr td{
+	padding			: 5px;
+}
+
+#footer_login{
+	width			: 100%;
+	text-align		: center;
+	padding			: 10px;
+}
+
+
+#isi_content{
+	width			: 100%;
+
+}
+#isi_content span{
+	padding			: 10px 0 20px 20px;
+}
+#isi_content table{
+	width			: 90%;
+	margin			: 0px auto;
+}
+#isi_content table tr td{
+	padding			: 10px 20px 10px 20px;
+}
+
+#form{
+	width			: 80%;
+	margin			: 0 auto;
+}
+
+
+.aksi{
+	width			: 120px;
+	text-align		: center;
+}
+
+.pagination{
+	width			: 100%;
+}
+
+.error{
+	color			: red;
+}
